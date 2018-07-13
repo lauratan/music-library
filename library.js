@@ -60,8 +60,8 @@ playlistTwo.addTrack(trackTwo)
 playlistOne.addTrack(trackFour)
 playlistTwo.addTrack(trackFive)
 playlistTwo.addTrack(trackSix)
-console.log(playlistOne.overallRating());
-console.log(playlistOne.totalDuration());
-console.log(playlistTwo.overallRating());
-console.log(playlistTwo.totalDuration());
+console.log(`Playlist One overall rating is ${playlistOne.overallRating()}`);
+console.log(`Playlist One total duration is ${playlistOne.totalDuration()}`);
+console.log(`Playlist Two overall rating is ${playlistTwo.overallRating()}`);
+console.log(`Playlist Two total duration is ${playlistTwo.totalDuration()}`);
 console.log(util.inspect(musiclibrary, false, null))
